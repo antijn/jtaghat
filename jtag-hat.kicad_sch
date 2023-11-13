@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 07c406fa-1379-42df-a811-eebfc8db218a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 35.56 35.56) (size 25.4 25.4) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005515d395)
+    (property "Sheetname" "RPi_GPIO" (at 35.56 34.7214 0)
+      (effects (font (size 1.524 1.524)) (justify left bottom))
+    )
+    (property "Sheetfile" "rpihat/RPi_GPIO.kicad_sch" (at 35.56 61.6462 0)
+      (effects (font (size 1.524 1.524)) (justify left top))
+    )
+    (instances
+      (project "jtag-hat"
+        (path "/07c406fa-1379-42df-a811-eebfc8db218a" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
